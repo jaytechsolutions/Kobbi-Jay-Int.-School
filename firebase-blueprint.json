@@ -1,0 +1,120 @@
+{
+  "collections": {
+    "users": {
+      "description": "System users and their roles",
+      "fields": {
+        "email": "string",
+        "fullName": "string",
+        "role": "string",
+        "isActive": "boolean",
+        "associatedId": "string (optional)",
+        "createdAt": "timestamp"
+      }
+    },
+    "roles": {
+      "description": "Defined system roles and their permissions",
+      "fields": {
+        "name": "string",
+        "modules": "array",
+        "isSystem": "boolean"
+      }
+    },
+    "students": {
+      "description": "Student records",
+      "fields": {
+        "admissionNumber": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "currentClassId": "string",
+        "status": "string",
+        "parentIds": "array"
+      }
+    },
+    "parents": {
+      "description": "Parent and guardian information",
+      "fields": {
+        "fullName": "string",
+        "phone": "string",
+        "email": "string",
+        "fatherName": "string (optional)",
+        "motherName": "string (optional)",
+        "relationship": "string",
+        "studentIds": "array"
+      }
+    },
+    "academicYears": {
+      "description": "Academic years configuration",
+      "fields": {
+        "name": "string",
+        "isActive": "boolean",
+        "terms": "array"
+      }
+    },
+    "classes": {
+      "description": "School classes",
+      "fields": {
+        "name": "string",
+        "levelCategory": "string",
+        "academicYearId": "string"
+      }
+    },
+    "feeCategories": {
+      "description": "Types of fees",
+      "fields": {
+        "name": "string",
+        "defaultAmount": "number"
+      }
+    },
+    "payments": {
+      "description": "Fee payment records",
+      "fields": {
+        "studentId": "string",
+        "amount": "number",
+        "paymentDate": "timestamp",
+        "feeCategoryId": "string"
+      }
+    },
+    "libraryBooks": {
+      "description": "Library book inventory",
+      "fields": {
+        "title": "string",
+        "author": "string",
+        "availableCopies": "number"
+      }
+    },
+    "libraryLoans": {
+      "description": "Book loan records",
+      "fields": {
+        "bookId": "string",
+        "borrowerId": "string",
+        "status": "string",
+        "borrowDate": "timestamp"
+      }
+    },
+    "admissionApplications": {
+      "description": "New student applications",
+      "fields": {
+        "applicantFirstName": "string",
+        "applicantLastName": "string",
+        "status": "string",
+        "submittedAt": "timestamp"
+      }
+    },
+    "auditLogs": {
+      "description": "System audit logs",
+      "fields": {
+        "userName": "string",
+        "action": "string",
+        "module": "string",
+        "timestamp": "timestamp"
+      }
+    },
+    "settings": {
+      "description": "Global school settings",
+      "fields": {
+        "schoolName": "string",
+        "activeAcademicYearId": "string"
+      }
+    }
+  }
+}

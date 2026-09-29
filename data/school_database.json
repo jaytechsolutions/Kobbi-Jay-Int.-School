@@ -1,0 +1,2377 @@
+{
+  "users": [
+    {
+      "id": "user-superadmin",
+      "username": "superadmin",
+      "email": "superadmin@kobbijay.edu.gh",
+      "fullName": "Super Administrator",
+      "role": "Super Administrator",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-admin",
+      "username": "schooladmin",
+      "email": "admin@kobbijay.edu.gh",
+      "fullName": "Mr. Joseph Amponsah",
+      "role": "School Administrator",
+      "temporaryPassword": "Amponsah@2026!",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-headteacher",
+      "username": "headteacher",
+      "email": "headteacher@kobbijay.edu.gh",
+      "fullName": "Mr. Emmanuel Mensah",
+      "role": "Headteacher",
+      "associatedId": "staff-01",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-academic",
+      "username": "academic",
+      "email": "academic@kobbijay.edu.gh",
+      "fullName": "Mrs. Beatrice Osei",
+      "role": "Academic Coordinator",
+      "associatedId": "staff-02",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-teacher",
+      "username": "kwame.asante",
+      "email": "teacher@kobbijay.edu.gh",
+      "fullName": "Mr. Kwame Asante (Teacher)",
+      "role": "Teacher",
+      "associatedId": "teach-01",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-accountant",
+      "username": "accountant",
+      "email": "accountant@kobbijay.edu.gh",
+      "fullName": "Mr. David Antwi (Bursar/Accountant)",
+      "role": "Accountant",
+      "associatedId": "staff-03",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-admissions",
+      "username": "admissions",
+      "email": "admissions@kobbijay.edu.gh",
+      "fullName": "Ms. Grace Owusu (Admissions)",
+      "role": "Admissions Officer",
+      "associatedId": "staff-04",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-librarian",
+      "username": "librarian",
+      "email": "librarian@kobbijay.edu.gh",
+      "fullName": "Mrs. Joyce Appiah (Librarian)",
+      "role": "Librarian",
+      "associatedId": "staff-05",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "user-parent",
+      "username": "robert.darko",
+      "email": "parent@kobbijay.edu.gh",
+      "fullName": "Mr. Robert Darko (Parent)",
+      "role": "Parent/Guardian",
+      "associatedId": "parent-01",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "id": "user-student",
+      "username": "kwame.darko",
+      "email": "student@kobbijay.edu.gh",
+      "fullName": "Kwame Kofi Darko (Basic 5)",
+      "role": "Student",
+      "associatedId": "stud-01",
+      "isActive": true,
+      "lastLogin": "2026-09-22T15:39:43.495Z",
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "stud-01",
+      "admissionNumber": "KJIS-2024-0018",
+      "firstName": "Kwame",
+      "middleName": "Kofi",
+      "lastName": "Darko",
+      "gender": "Male",
+      "dateOfBirth": "2015-04-12",
+      "placeOfBirth": "Accra, Greater Accra",
+      "nationality": "Ghanaian",
+      "religion": "Christian",
+      "previousSchool": "Ridge Church School",
+      "admissionDate": "2024-09-03",
+      "currentClassId": "class-basic-5",
+      "currentClassName": "Basic 5",
+      "academicYearId": "ay-2026-2027",
+      "status": "Active",
+      "parentIds": [
+        "parent-01"
+      ],
+      "emergencyContactName": "Mr. Robert Darko (Father)",
+      "emergencyContactPhone": "+233 24 456 7890",
+      "medicalInfo": "Mild asthma, carries inhaler. No medication allergies.",
+      "bloodGroup": "O+",
+      "address": "House No. 42, Palm Crescent, Airport West, Accra",
+      "notes": "Well-mannered, demonstrates high aptitude for mathematics and computing.",
+      "createdAt": "2024-09-03T09:00:00.000Z",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "stud-02",
+      "admissionNumber": "KJIS-2025-0064",
+      "firstName": "Ama",
+      "middleName": "Akosua",
+      "lastName": "Darko",
+      "gender": "Female",
+      "dateOfBirth": "2021-08-25",
+      "placeOfBirth": "Accra, Greater Accra",
+      "nationality": "Ghanaian",
+      "religion": "Christian",
+      "previousSchool": "Home Care Nursery",
+      "admissionDate": "2025-09-08",
+      "currentClassId": "class-kg-2",
+      "currentClassName": "KG 2",
+      "academicYearId": "ay-2026-2027",
+      "status": "Active",
+      "parentIds": [
+        "parent-01"
+      ],
+      "emergencyContactName": "Mrs. Evelyn Darko (Mother)",
+      "emergencyContactPhone": "+233 24 456 7891",
+      "medicalInfo": "Peanut allergy (mild). Health certificate on file.",
+      "bloodGroup": "A+",
+      "address": "House No. 42, Palm Crescent, Airport West, Accra",
+      "notes": "Very creative and vocal child in preschool activities.",
+      "createdAt": "2025-09-08T09:00:00.000Z",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "stud-03",
+      "admissionNumber": "KJIS-2023-0009",
+      "firstName": "Kofi",
+      "middleName": "Baffour",
+      "lastName": "Amponsah",
+      "gender": "Male",
+      "dateOfBirth": "2012-01-19",
+      "placeOfBirth": "Kumasi, Ashanti Region",
+      "nationality": "Ghanaian",
+      "religion": "Christian",
+      "previousSchool": "SOS Hermann Gmeiner School",
+      "admissionDate": "2023-09-05",
+      "currentClassId": "class-jhs-2",
+      "currentClassName": "JHS 2",
+      "academicYearId": "ay-2026-2027",
+      "status": "Active",
+      "parentIds": [
+        "parent-02"
+      ],
+      "emergencyContactName": "Dr. Sheila Amponsah (Mother)",
+      "emergencyContactPhone": "+233 20 889 0011",
+      "bloodGroup": "B+",
+      "address": "Block C, Vista Heights, Cantonments, Accra",
+      "notes": "School Prefect aspirant, excellent student-athlete.",
+      "createdAt": "2023-09-05T09:00:00.000Z",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "stud-04",
+      "admissionNumber": "KJIS-2024-0033",
+      "firstName": "Fatima",
+      "middleName": "Zahra",
+      "lastName": "Ibrahim",
+      "gender": "Female",
+      "dateOfBirth": "2015-06-10",
+      "placeOfBirth": "Accra, Greater Accra",
+      "nationality": "Ghanaian",
+      "religion": "Islamic",
+      "previousSchool": "Galaxy International School",
+      "admissionDate": "2024-09-03",
+      "currentClassId": "class-basic-5",
+      "currentClassName": "Basic 5",
+      "academicYearId": "ay-2026-2027",
+      "status": "Active",
+      "parentIds": [
+        "parent-03"
+      ],
+      "emergencyContactName": "Alhaji Mustapha Ibrahim (Father)",
+      "emergencyContactPhone": "+233 24 332 1199",
+      "bloodGroup": "O+",
+      "address": "Plot 18, Ambassadorial Enclave, Ridge, Accra",
+      "notes": "Exceptional in French and Social Studies.",
+      "createdAt": "2024-09-03T09:00:00.000Z",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "stud-05",
+      "admissionNumber": "KJIS-2022-0004",
+      "firstName": "Farouk",
+      "middleName": "Tariq",
+      "lastName": "Ibrahim",
+      "gender": "Male",
+      "dateOfBirth": "2011-10-05",
+      "placeOfBirth": "Accra, Greater Accra",
+      "nationality": "Ghanaian",
+      "religion": "Islamic",
+      "previousSchool": "British International School",
+      "admissionDate": "2022-09-06",
+      "currentClassId": "class-jhs-3",
+      "currentClassName": "JHS 3",
+      "academicYearId": "ay-2026-2027",
+      "status": "Active",
+      "parentIds": [
+        "parent-03"
+      ],
+      "emergencyContactName": "Alhaji Mustapha Ibrahim (Father)",
+      "emergencyContactPhone": "+233 24 332 1199",
+      "bloodGroup": "O+",
+      "address": "Plot 18, Ambassadorial Enclave, Ridge, Accra",
+      "notes": "Final year BECE candidate. Outstanding academic record.",
+      "createdAt": "2022-09-06T09:00:00.000Z",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "stud-06",
+      "admissionNumber": "KJIS-2026-0001",
+      "firstName": "Jessica",
+      "middleName": "Naa",
+      "lastName": "Aryee",
+      "gender": "Female",
+      "dateOfBirth": "2018-03-14",
+      "placeOfBirth": "Accra, Greater Accra",
+      "nationality": "Ghanaian",
+      "religion": "Christian",
+      "admissionDate": "2026-09-08",
+      "currentClassId": "class-basic-2",
+      "currentClassName": "Basic 2",
+      "academicYearId": "ay-2026-2027",
+      "status": "Active",
+      "parentIds": [],
+      "emergencyContactName": "Mrs. Rebecca Aryee",
+      "emergencyContactPhone": "+233 24 100 2938",
+      "address": "Adabraka, Accra",
+      "createdAt": "2026-09-08T09:00:00.000Z",
+      "updatedAt": "2026-09-08T09:00:00.000Z"
+    },
+    {
+      "id": "stud-07",
+      "admissionNumber": "KJIS-2026-0002",
+      "firstName": "David",
+      "middleName": "Yaw",
+      "lastName": "Agyemang",
+      "gender": "Male",
+      "dateOfBirth": "2017-09-22",
+      "placeOfBirth": "Kumasi",
+      "nationality": "Ghanaian",
+      "religion": "Christian",
+      "admissionDate": "2026-09-08",
+      "currentClassId": "class-basic-3",
+      "currentClassName": "Basic 3",
+      "academicYearId": "ay-2026-2027",
+      "status": "Active",
+      "parentIds": [],
+      "emergencyContactName": "Mr. Frank Agyemang",
+      "emergencyContactPhone": "+233 20 771 9922",
+      "address": "Osu, Accra",
+      "createdAt": "2026-09-08T09:00:00.000Z",
+      "updatedAt": "2026-09-08T09:00:00.000Z"
+    },
+    {
+      "id": "stud-08",
+      "admissionNumber": "KJIS-2025-0078",
+      "firstName": "Grace",
+      "middleName": "Esi",
+      "lastName": "Arthur",
+      "gender": "Female",
+      "dateOfBirth": "2019-12-03",
+      "placeOfBirth": "Cape Coast",
+      "nationality": "Ghanaian",
+      "religion": "Christian",
+      "admissionDate": "2025-09-08",
+      "currentClassId": "class-basic-1",
+      "currentClassName": "Basic 1",
+      "academicYearId": "ay-2026-2027",
+      "status": "Active",
+      "parentIds": [],
+      "emergencyContactName": "Mr. Isaac Arthur",
+      "emergencyContactPhone": "+233 54 883 0019",
+      "address": "Labone, Accra",
+      "createdAt": "2025-09-08T09:00:00.000Z",
+      "updatedAt": "2026-09-01T08:00:00.000Z"
+    }
+  ],
+  "parents": [
+    {
+      "id": "parent-01",
+      "fullName": "Mr. Robert Darko",
+      "phone": "+233 24 456 7890",
+      "email": "parent@kobbijay.edu.gh",
+      "occupation": "Senior Civil Engineer",
+      "relationship": "Father",
+      "address": "House No. 42, Palm Crescent, Airport West, Accra",
+      "emergencyContact": "+233 24 456 7891 (Mrs. Evelyn Darko - Mother)",
+      "studentIds": [
+        "stud-01",
+        "stud-02"
+      ],
+      "userId": "user-parent",
+      "createdAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "id": "parent-02",
+      "fullName": "Dr. Sheila Amponsah",
+      "phone": "+233 20 889 0011",
+      "email": "sheila.amponsah@gmail.com",
+      "occupation": "Pediatric Specialist",
+      "relationship": "Mother",
+      "address": "Block C, Vista Heights, Cantonments, Accra",
+      "emergencyContact": "+233 20 889 0012 (Mr. Jerry Amponsah)",
+      "studentIds": [
+        "stud-03"
+      ],
+      "createdAt": "2026-08-11T11:00:00.000Z"
+    },
+    {
+      "id": "parent-03",
+      "fullName": "Alhaji Mustapha Ibrahim",
+      "phone": "+233 24 332 1199",
+      "email": "mustapha.ibrahim@ibgroup.com",
+      "occupation": "Managing Director & Entrepreneur",
+      "relationship": "Father",
+      "address": "Plot 18, Ambassadorial Enclave, Ridge, Accra",
+      "emergencyContact": "+233 24 332 1100 (Hajia Amina Ibrahim)",
+      "studentIds": [
+        "stud-04",
+        "stud-05"
+      ],
+      "createdAt": "2026-08-12T14:30:00.000Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff-01",
+      "fullName": "Mr. Emmanuel Mensah",
+      "gender": "Male",
+      "dateOfBirth": "1974-05-14",
+      "phone": "+233 24 111 2233",
+      "email": "headteacher@kobbijay.edu.gh",
+      "address": "East Legon Hills, Accra",
+      "position": "Headteacher",
+      "department": "Administration",
+      "qualification": "M.Ed Educational Leadership, B.Ed Science",
+      "employmentDate": "2018-09-01",
+      "employmentStatus": "Full-time",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "staff-02",
+      "fullName": "Mrs. Beatrice Osei",
+      "gender": "Female",
+      "dateOfBirth": "1982-11-20",
+      "phone": "+233 20 222 3344",
+      "email": "academic@kobbijay.edu.gh",
+      "address": "Airport Hills, Accra",
+      "position": "Academic Coordinator",
+      "department": "Academics",
+      "qualification": "M.A Curriculum Studies, B.A English",
+      "employmentDate": "2019-01-15",
+      "employmentStatus": "Full-time",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "staff-03",
+      "fullName": "Mr. David Antwi",
+      "gender": "Male",
+      "dateOfBirth": "1985-03-08",
+      "phone": "+233 24 333 4455",
+      "email": "accountant@kobbijay.edu.gh",
+      "address": "Spintex Road, Accra",
+      "position": "Accountant",
+      "department": "Finance & Accounts",
+      "qualification": "CA Ghana, B.Sc Accounting",
+      "employmentDate": "2020-02-01",
+      "employmentStatus": "Full-time",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "staff-04",
+      "fullName": "Ms. Grace Owusu",
+      "gender": "Female",
+      "dateOfBirth": "1990-08-16",
+      "phone": "+233 50 444 5566",
+      "email": "admissions@kobbijay.edu.gh",
+      "address": "Cantonments, Accra",
+      "position": "Admissions Officer",
+      "department": "Admissions & Registry",
+      "qualification": "B.Sc Public Relations",
+      "employmentDate": "2021-08-01",
+      "employmentStatus": "Full-time",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "staff-05",
+      "fullName": "Mrs. Joyce Appiah",
+      "gender": "Female",
+      "dateOfBirth": "1988-12-04",
+      "phone": "+233 24 777 8899",
+      "email": "librarian@kobbijay.edu.gh",
+      "address": "Dzorwulu, Accra",
+      "position": "Librarian",
+      "department": "Library & Learning Resources",
+      "qualification": "B.A Information Studies & Library Science",
+      "employmentDate": "2022-01-10",
+      "employmentStatus": "Full-time",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "teach-01",
+      "fullName": "Mr. Kwame Asante",
+      "gender": "Male",
+      "dateOfBirth": "1986-07-22",
+      "phone": "+233 24 999 1122",
+      "email": "teacher@kobbijay.edu.gh",
+      "address": "Roman Ridge, Accra",
+      "position": "Teacher",
+      "department": "Science & Mathematics",
+      "qualification": "B.Ed Mathematics & Physics",
+      "employmentDate": "2019-09-01",
+      "employmentStatus": "Full-time",
+      "assignedClassIds": [
+        "class-basic-5",
+        "class-basic-6",
+        "class-jhs-1"
+      ],
+      "assignedSubjectIds": [
+        "subj-math",
+        "subj-sci"
+      ],
+      "specialization": "Upper Primary & JHS STEM",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "teach-02",
+      "fullName": "Mrs. Cynthia Quartey",
+      "gender": "Female",
+      "dateOfBirth": "1989-02-14",
+      "phone": "+233 27 888 2233",
+      "email": "cynthia.quartey@kobbijay.edu.gh",
+      "address": "Achimota, Accra",
+      "position": "Teacher",
+      "department": "Languages",
+      "qualification": "B.Ed English & French",
+      "employmentDate": "2020-09-01",
+      "employmentStatus": "Full-time",
+      "assignedClassIds": [
+        "class-basic-4",
+        "class-basic-5",
+        "class-jhs-2"
+      ],
+      "assignedSubjectIds": [
+        "subj-eng",
+        "subj-fr"
+      ],
+      "specialization": "Bilingual Language Instruction",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "teach-03",
+      "fullName": "Mr. Patrick Boateng",
+      "gender": "Male",
+      "dateOfBirth": "1991-09-18",
+      "phone": "+233 55 333 7788",
+      "email": "patrick.boateng@kobbijay.edu.gh",
+      "address": "Haatso, Accra",
+      "position": "Teacher",
+      "department": "Information Technology",
+      "qualification": "B.Sc Computer Science & Education",
+      "employmentDate": "2021-01-15",
+      "employmentStatus": "Full-time",
+      "assignedClassIds": [
+        "class-basic-3",
+        "class-basic-4",
+        "class-basic-5",
+        "class-jhs-1",
+        "class-jhs-2",
+        "class-jhs-3"
+      ],
+      "assignedSubjectIds": [
+        "subj-comp"
+      ],
+      "specialization": "Robotics & Computer Science",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "teach-04",
+      "fullName": "Ms. Faustina Addo",
+      "gender": "Female",
+      "dateOfBirth": "1993-04-30",
+      "phone": "+233 24 666 4411",
+      "email": "faustina.addo@kobbijay.edu.gh",
+      "address": "Madina Estate, Accra",
+      "position": "Teacher",
+      "department": "Early Childhood Education",
+      "qualification": "Diploma Early Childhood Care, B.Ed Primary Education",
+      "employmentDate": "2021-09-01",
+      "employmentStatus": "Full-time",
+      "assignedClassIds": [
+        "class-creche",
+        "class-nursery-1",
+        "class-kg-2"
+      ],
+      "assignedSubjectIds": [
+        "subj-art",
+        "subj-eng",
+        "subj-math"
+      ],
+      "specialization": "Montessori & Early Foundations",
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    }
+  ],
+  "academicYears": [
+    {
+      "id": "ay-2026-2027",
+      "name": "2026/2027",
+      "startDate": "2026-09-08",
+      "endDate": "2027-07-25",
+      "isActive": true,
+      "terms": [
+        {
+          "id": "term-1-2026",
+          "academicYearId": "ay-2026-2027",
+          "name": "Term 1",
+          "startDate": "2026-09-08",
+          "endDate": "2026-12-18",
+          "isCurrent": true,
+          "status": "In Progress"
+        },
+        {
+          "id": "term-2-2027",
+          "academicYearId": "ay-2026-2027",
+          "name": "Term 2",
+          "startDate": "2027-01-12",
+          "endDate": "2027-04-16",
+          "isCurrent": false,
+          "status": "Upcoming"
+        },
+        {
+          "id": "term-3-2027",
+          "academicYearId": "ay-2026-2027",
+          "name": "Term 3",
+          "startDate": "2027-05-11",
+          "endDate": "2027-07-23",
+          "isCurrent": false,
+          "status": "Upcoming"
+        }
+      ],
+      "createdAt": "2026-08-01T08:00:00.000Z"
+    },
+    {
+      "id": "ay-2025-2026",
+      "name": "2025/2026",
+      "startDate": "2025-09-09",
+      "endDate": "2026-07-24",
+      "isActive": false,
+      "terms": [
+        {
+          "id": "term-1-2025",
+          "academicYearId": "ay-2025-2026",
+          "name": "Term 1",
+          "startDate": "2025-09-09",
+          "endDate": "2025-12-19",
+          "isCurrent": false,
+          "status": "Closed"
+        },
+        {
+          "id": "term-2-2026",
+          "academicYearId": "ay-2025-2026",
+          "name": "Term 2",
+          "startDate": "2026-01-13",
+          "endDate": "2026-04-17",
+          "isCurrent": false,
+          "status": "Closed"
+        },
+        {
+          "id": "term-3-2026",
+          "academicYearId": "ay-2025-2026",
+          "name": "Term 3",
+          "startDate": "2026-05-12",
+          "endDate": "2026-07-24",
+          "isCurrent": false,
+          "status": "Closed"
+        }
+      ],
+      "createdAt": "2025-08-01T08:00:00.000Z"
+    }
+  ],
+  "terms": [
+    {
+      "id": "term-1-2026",
+      "academicYearId": "ay-2026-2027",
+      "name": "Term 1",
+      "startDate": "2026-09-08",
+      "endDate": "2026-12-18",
+      "isCurrent": true,
+      "status": "In Progress"
+    },
+    {
+      "id": "term-2-2027",
+      "academicYearId": "ay-2026-2027",
+      "name": "Term 2",
+      "startDate": "2027-01-12",
+      "endDate": "2027-04-16",
+      "isCurrent": false,
+      "status": "Upcoming"
+    },
+    {
+      "id": "term-3-2027",
+      "academicYearId": "ay-2026-2027",
+      "name": "Term 3",
+      "startDate": "2027-05-11",
+      "endDate": "2027-07-23",
+      "isCurrent": false,
+      "status": "Upcoming"
+    },
+    {
+      "id": "term-1-2025",
+      "academicYearId": "ay-2025-2026",
+      "name": "Term 1",
+      "startDate": "2025-09-09",
+      "endDate": "2025-12-19",
+      "isCurrent": false,
+      "status": "Closed"
+    },
+    {
+      "id": "term-2-2026",
+      "academicYearId": "ay-2025-2026",
+      "name": "Term 2",
+      "startDate": "2026-01-13",
+      "endDate": "2026-04-17",
+      "isCurrent": false,
+      "status": "Closed"
+    },
+    {
+      "id": "term-3-2026",
+      "academicYearId": "ay-2025-2026",
+      "name": "Term 3",
+      "startDate": "2026-05-12",
+      "endDate": "2026-07-24",
+      "isCurrent": false,
+      "status": "Closed"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-creche",
+      "name": "Creche",
+      "levelCategory": "Early Childhood",
+      "section": "A",
+      "classroom": "Block A - Room 01",
+      "capacity": 25,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 0
+    },
+    {
+      "id": "class-nursery-1",
+      "name": "Nursery 1",
+      "levelCategory": "Early Childhood",
+      "section": "A",
+      "classroom": "Block A - Room 02",
+      "capacity": 30,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 0
+    },
+    {
+      "id": "class-nursery-2",
+      "name": "Nursery 2",
+      "levelCategory": "Early Childhood",
+      "section": "A",
+      "classroom": "Block A - Room 03",
+      "capacity": 30,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 0
+    },
+    {
+      "id": "class-kg-1",
+      "name": "KG 1",
+      "levelCategory": "Early Childhood",
+      "section": "A",
+      "classroom": "Block A - Room 04",
+      "capacity": 32,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 0
+    },
+    {
+      "id": "class-kg-2",
+      "name": "KG 2",
+      "levelCategory": "Early Childhood",
+      "section": "A",
+      "classroom": "Block A - Room 05",
+      "capacity": 32,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 1,
+      "classTeacherId": "teach-04",
+      "classTeacherName": "Ms. Faustina Addo"
+    },
+    {
+      "id": "class-basic-1",
+      "name": "Basic 1",
+      "levelCategory": "Primary",
+      "section": "A",
+      "classroom": "Block B - Room 101",
+      "capacity": 35,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 1
+    },
+    {
+      "id": "class-basic-2",
+      "name": "Basic 2",
+      "levelCategory": "Primary",
+      "section": "A",
+      "classroom": "Block B - Room 102",
+      "capacity": 35,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 1
+    },
+    {
+      "id": "class-basic-3",
+      "name": "Basic 3",
+      "levelCategory": "Primary",
+      "section": "A",
+      "classroom": "Block B - Room 103",
+      "capacity": 35,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 1
+    },
+    {
+      "id": "class-basic-4",
+      "name": "Basic 4",
+      "levelCategory": "Primary",
+      "section": "A",
+      "classroom": "Block B - Room 201",
+      "capacity": 35,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 0
+    },
+    {
+      "id": "class-basic-5",
+      "name": "Basic 5",
+      "levelCategory": "Primary",
+      "section": "A",
+      "classroom": "Block B - Room 202",
+      "capacity": 35,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 2,
+      "classTeacherId": "teach-01",
+      "classTeacherName": "Mr. Kwame Asante"
+    },
+    {
+      "id": "class-basic-6",
+      "name": "Basic 6",
+      "levelCategory": "Primary",
+      "section": "A",
+      "classroom": "Block B - Room 203",
+      "capacity": 35,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 0
+    },
+    {
+      "id": "class-jhs-1",
+      "name": "JHS 1",
+      "levelCategory": "Junior High",
+      "section": "A",
+      "classroom": "Block C - Room 301",
+      "capacity": 40,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 0
+    },
+    {
+      "id": "class-jhs-2",
+      "name": "JHS 2",
+      "levelCategory": "Junior High",
+      "section": "A",
+      "classroom": "Block C - Room 302",
+      "capacity": 40,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 1
+    },
+    {
+      "id": "class-jhs-3",
+      "name": "JHS 3",
+      "levelCategory": "Junior High",
+      "section": "A",
+      "classroom": "Block C - Room 303",
+      "capacity": 40,
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "subjectIds": [
+        "subj-eng",
+        "subj-math",
+        "subj-sci",
+        "subj-soc",
+        "subj-rme",
+        "subj-comp",
+        "subj-art",
+        "subj-pe",
+        "subj-fr",
+        "subj-gha",
+        "subj-ct"
+      ],
+      "studentCount": 1
+    }
+  ],
+  "subjects": [
+    {
+      "id": "subj-eng",
+      "code": "ENG",
+      "name": "English Language",
+      "category": "Core",
+      "passMark": 50,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-math",
+      "code": "MTH",
+      "name": "Mathematics",
+      "category": "Core",
+      "passMark": 50,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-sci",
+      "code": "SCI",
+      "name": "Integrated Science",
+      "category": "Core",
+      "passMark": 50,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-soc",
+      "code": "SOC",
+      "name": "Social Studies",
+      "category": "Core",
+      "passMark": 50,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-rme",
+      "code": "RME",
+      "name": "Religious and Moral Education",
+      "category": "Core",
+      "passMark": 50,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-comp",
+      "code": "ICT",
+      "name": "Computing (ICT)",
+      "category": "Core",
+      "passMark": 50,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-art",
+      "code": "CRT",
+      "name": "Creative Arts & Design",
+      "category": "Core",
+      "passMark": 45,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-pe",
+      "code": "PHE",
+      "name": "Physical & Health Education",
+      "category": "Activity",
+      "passMark": 40,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-fr",
+      "code": "FRN",
+      "name": "French Language",
+      "category": "Elective",
+      "passMark": 50,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-gha",
+      "code": "GHA",
+      "name": "Ghanaian Language (Twi / Ga)",
+      "category": "Elective",
+      "passMark": 50,
+      "applicableLevels": [
+        "all"
+      ]
+    },
+    {
+      "id": "subj-ct",
+      "code": "CTE",
+      "name": "Career Technology",
+      "category": "Elective",
+      "passMark": 50,
+      "applicableLevels": [
+        "jhs"
+      ]
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-01",
+      "studentId": "stud-01",
+      "studentName": "Kwame Kofi Darko",
+      "classId": "class-basic-5",
+      "date": "2026-09-22",
+      "status": "Present",
+      "recordedBy": "Mr. Kwame Asante",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026"
+    },
+    {
+      "id": "att-02",
+      "studentId": "stud-04",
+      "studentName": "Fatima Zahra Ibrahim",
+      "classId": "class-basic-5",
+      "date": "2026-09-22",
+      "status": "Present",
+      "recordedBy": "Mr. Kwame Asante",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026"
+    },
+    {
+      "id": "att-03",
+      "studentId": "stud-02",
+      "studentName": "Ama Akosua Darko",
+      "classId": "class-kg-2",
+      "date": "2026-09-22",
+      "status": "Present",
+      "recordedBy": "Ms. Faustina Addo",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026"
+    },
+    {
+      "id": "att-04",
+      "studentId": "stud-03",
+      "studentName": "Kofi Baffour Amponsah",
+      "classId": "class-jhs-2",
+      "date": "2026-09-22",
+      "status": "Late",
+      "remarks": "Arrived 8:15 AM due to traffic",
+      "recordedBy": "Mr. Patrick Boateng",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026"
+    },
+    {
+      "id": "att-05",
+      "studentId": "stud-05",
+      "studentName": "Farouk Tariq Ibrahim",
+      "classId": "class-jhs-3",
+      "date": "2026-09-22",
+      "status": "Present",
+      "recordedBy": "Mr. Patrick Boateng",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026"
+    },
+    {
+      "id": "att-06",
+      "studentId": "stud-06",
+      "studentName": "Jessica Naa Aryee",
+      "classId": "class-basic-2",
+      "date": "2026-09-22",
+      "status": "Absent",
+      "remarks": "Excused - Dentist appointment",
+      "recordedBy": "Mrs. Cynthia Quartey",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026"
+    },
+    {
+      "id": "att-07",
+      "studentId": "stud-07",
+      "studentName": "David Yaw Agyemang",
+      "classId": "class-basic-3",
+      "date": "2026-09-22",
+      "status": "Present",
+      "recordedBy": "Mrs. Beatrice Osei",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "asm-01",
+      "title": "Continuous Assessment 1 (Class Exercise & Quizzes)",
+      "type": "Class Exercise",
+      "classId": "class-basic-5",
+      "subjectId": "subj-math",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "maxScore": 20,
+      "weightPercentage": 20,
+      "date": "2026-09-18",
+      "createdBy": "Mr. Kwame Asante"
+    },
+    {
+      "id": "asm-02",
+      "title": "Science Project: Living Organisms & Ecosystems",
+      "type": "Project",
+      "classId": "class-basic-5",
+      "subjectId": "subj-sci",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "maxScore": 20,
+      "weightPercentage": 20,
+      "date": "2026-09-20",
+      "createdBy": "Mr. Kwame Asante"
+    },
+    {
+      "id": "asm-03",
+      "title": "End of Term 3 Examination (Previous Session)",
+      "type": "End-of-Term Examination",
+      "classId": "class-basic-5",
+      "subjectId": "subj-math",
+      "academicYearId": "ay-2025-2026",
+      "termId": "term-3-2026",
+      "maxScore": 60,
+      "weightPercentage": 60,
+      "date": "2026-07-15",
+      "createdBy": "Mr. Kwame Asante"
+    }
+  ],
+  "results": [
+    {
+      "id": "res-01",
+      "studentId": "stud-01",
+      "studentName": "Kwame Kofi Darko",
+      "admissionNumber": "KJIS-2024-0018",
+      "classId": "class-basic-5",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "classScore": 38,
+      "maxClassScore": 40,
+      "examScore": 54,
+      "maxExamScore": 60,
+      "totalScore": 92,
+      "grade": "1 (A)",
+      "remarks": "Outstanding analytical skills and precision.",
+      "status": "Approved",
+      "submittedBy": "Mr. Kwame Asante",
+      "submittedAt": "2026-09-20T10:00:00.000Z",
+      "approvedBy": "Mr. Emmanuel Mensah",
+      "approvedAt": "2026-09-21T09:00:00.000Z"
+    },
+    {
+      "id": "res-02",
+      "studentId": "stud-01",
+      "studentName": "Kwame Kofi Darko",
+      "admissionNumber": "KJIS-2024-0018",
+      "classId": "class-basic-5",
+      "subjectId": "subj-sci",
+      "subjectName": "Integrated Science",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "classScore": 35,
+      "maxClassScore": 40,
+      "examScore": 52,
+      "maxExamScore": 60,
+      "totalScore": 87,
+      "grade": "1 (A)",
+      "remarks": "Very thorough scientific method execution.",
+      "status": "Approved",
+      "submittedBy": "Mr. Kwame Asante",
+      "submittedAt": "2026-09-20T10:00:00.000Z",
+      "approvedBy": "Mr. Emmanuel Mensah",
+      "approvedAt": "2026-09-21T09:00:00.000Z"
+    },
+    {
+      "id": "res-03",
+      "studentId": "stud-01",
+      "studentName": "Kwame Kofi Darko",
+      "admissionNumber": "KJIS-2024-0018",
+      "classId": "class-basic-5",
+      "subjectId": "subj-eng",
+      "subjectName": "English Language",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "classScore": 34,
+      "maxClassScore": 40,
+      "examScore": 49,
+      "maxExamScore": 60,
+      "totalScore": 83,
+      "grade": "1 (A)",
+      "remarks": "Good grasp of grammar and creative essay expression.",
+      "status": "Approved",
+      "submittedBy": "Mrs. Cynthia Quartey",
+      "submittedAt": "2026-09-20T11:00:00.000Z",
+      "approvedBy": "Mr. Emmanuel Mensah",
+      "approvedAt": "2026-09-21T09:00:00.000Z"
+    },
+    {
+      "id": "res-04",
+      "studentId": "stud-01",
+      "studentName": "Kwame Kofi Darko",
+      "admissionNumber": "KJIS-2024-0018",
+      "classId": "class-basic-5",
+      "subjectId": "subj-comp",
+      "subjectName": "Computing (ICT)",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "classScore": 39,
+      "maxClassScore": 40,
+      "examScore": 56,
+      "maxExamScore": 60,
+      "totalScore": 95,
+      "grade": "1 (A)",
+      "remarks": "Exceptional in Scratch programming and algorithmic logic.",
+      "status": "Approved",
+      "submittedBy": "Mr. Patrick Boateng",
+      "submittedAt": "2026-09-20T12:00:00.000Z",
+      "approvedBy": "Mr. Emmanuel Mensah",
+      "approvedAt": "2026-09-21T09:00:00.000Z"
+    },
+    {
+      "id": "res-05",
+      "studentId": "stud-04",
+      "studentName": "Fatima Zahra Ibrahim",
+      "admissionNumber": "KJIS-2024-0033",
+      "classId": "class-basic-5",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "classScore": 36,
+      "maxClassScore": 40,
+      "examScore": 51,
+      "maxExamScore": 60,
+      "totalScore": 87,
+      "grade": "1 (A)",
+      "remarks": "Strong algebraic thinking.",
+      "status": "Approved",
+      "submittedBy": "Mr. Kwame Asante",
+      "submittedAt": "2026-09-20T10:00:00.000Z",
+      "approvedBy": "Mr. Emmanuel Mensah",
+      "approvedAt": "2026-09-21T09:00:00.000Z"
+    }
+  ],
+  "reportCards": [
+    {
+      "id": "rep-01",
+      "studentId": "stud-01",
+      "studentName": "Kwame Kofi Darko",
+      "admissionNumber": "KJIS-2024-0018",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "academicYearId": "ay-2026-2027",
+      "academicYearName": "2026/2027",
+      "termId": "term-1-2026",
+      "termName": "Term 1",
+      "attendanceDaysPresent": 14,
+      "attendanceDaysTotal": 15,
+      "subjectResults": [
+        {
+          "subjectName": "Mathematics",
+          "classScore": 38,
+          "examScore": 54,
+          "totalScore": 92,
+          "grade": "1 (A)",
+          "remarks": "Distinction. Very sharp problem solver."
+        },
+        {
+          "subjectName": "Integrated Science",
+          "classScore": 35,
+          "examScore": 52,
+          "totalScore": 87,
+          "grade": "1 (A)",
+          "remarks": "Excellent laboratory experiment execution."
+        },
+        {
+          "subjectName": "English Language",
+          "classScore": 34,
+          "examScore": 49,
+          "totalScore": 83,
+          "grade": "1 (A)",
+          "remarks": "Comprehension and syntax are well-developed."
+        },
+        {
+          "subjectName": "Computing (ICT)",
+          "classScore": 39,
+          "examScore": 56,
+          "totalScore": 95,
+          "grade": "1 (A)",
+          "remarks": "Mastery of computer fundamentals and logic."
+        }
+      ],
+      "overallAverage": 89.25,
+      "overallTotal": 357,
+      "positionInClass": "1st out of 35",
+      "classSize": 35,
+      "teacherRemarks": "Kwame is an exceptionally diligent, disciplined, and attentive pupil. Keep up the brilliant effort!",
+      "teacherName": "Mr. Kwame Asante (Class Teacher)",
+      "headteacherRemarks": "An admirable academic outcome. We commend Kwame for setting a high standard of academic distinction.",
+      "conductRemarks": "Exemplary conduct and helpful attitude toward peers.",
+      "interestRemarks": "Enthusiastic participant in Science Club and Robotics.",
+      "promotionStatus": "In Progress",
+      "nextTermBegins": "2027-01-12",
+      "issuedDate": "2026-09-21"
+    }
+  ],
+  "feeCategories": [
+    {
+      "id": "fee-cat-tuition",
+      "name": "Tuition Fee",
+      "defaultAmount": 1800,
+      "frequency": "Termly"
+    },
+    {
+      "id": "fee-cat-admission",
+      "name": "Admission & Registration Fee",
+      "defaultAmount": 850,
+      "frequency": "Once"
+    },
+    {
+      "id": "fee-cat-books",
+      "name": "Books & Learning Materials",
+      "defaultAmount": 600,
+      "frequency": "Yearly"
+    },
+    {
+      "id": "fee-cat-uniform",
+      "name": "Uniform & Sports Wear (2 sets)",
+      "defaultAmount": 450,
+      "frequency": "Yearly"
+    },
+    {
+      "id": "fee-cat-feeding",
+      "name": "Hot Nutritious Lunch / Feeding",
+      "defaultAmount": 750,
+      "frequency": "Termly"
+    },
+    {
+      "id": "fee-cat-transport",
+      "name": "School Bus Shuttle Service",
+      "defaultAmount": 900,
+      "frequency": "Termly"
+    },
+    {
+      "id": "fee-cat-exam",
+      "name": "Examination & Assessment Fee",
+      "defaultAmount": 200,
+      "frequency": "Termly"
+    },
+    {
+      "id": "fee-cat-ict",
+      "name": "Computer Lab & Coding Practicals",
+      "defaultAmount": 250,
+      "frequency": "Termly"
+    },
+    {
+      "id": "fee-cat-clubs",
+      "name": "Clubs & Co-curricular Activities",
+      "defaultAmount": 150,
+      "frequency": "Termly"
+    }
+  ],
+  "feeAssignments": [
+    {
+      "id": "fa-01",
+      "feeCategoryId": "fee-cat-tuition",
+      "feeCategoryName": "Tuition Fee",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "amountBilled": 1800,
+      "dueDate": "2026-10-15"
+    },
+    {
+      "id": "fa-02",
+      "feeCategoryId": "fee-cat-feeding",
+      "feeCategoryName": "Hot Nutritious Lunch / Feeding",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "amountBilled": 750,
+      "dueDate": "2026-10-15"
+    },
+    {
+      "id": "fa-03",
+      "feeCategoryId": "fee-cat-ict",
+      "feeCategoryName": "Computer Lab & Coding Practicals",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "amountBilled": 250,
+      "dueDate": "2026-10-15"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-01",
+      "receiptNumber": "REC-KJIS-2026-0001",
+      "studentId": "stud-01",
+      "studentName": "Kwame Kofi Darko",
+      "admissionNumber": "KJIS-2024-0018",
+      "parentId": "parent-01",
+      "parentName": "Mr. Robert Darko",
+      "amount": 2000,
+      "paymentDate": "2026-09-10",
+      "paymentMethod": "Bank Transfer",
+      "transactionReference": "GCB-TRF-9821034",
+      "feeCategoryId": "fee-cat-tuition",
+      "feeCategoryName": "Tuition Fee (Term 1)",
+      "description": "Term 1 Tuition fee installment payment",
+      "status": "Partially Paid",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "recordedBy": "Mr. David Antwi (Accountant)",
+      "createdAt": "2026-09-10T11:20:00.000Z"
+    },
+    {
+      "id": "pay-02",
+      "receiptNumber": "REC-KJIS-2026-0002",
+      "studentId": "stud-02",
+      "studentName": "Ama Akosua Darko",
+      "admissionNumber": "KJIS-2025-0064",
+      "parentId": "parent-01",
+      "parentName": "Mr. Robert Darko",
+      "amount": 2200,
+      "paymentDate": "2026-09-10",
+      "paymentMethod": "Bank Transfer",
+      "transactionReference": "GCB-TRF-9821035",
+      "feeCategoryId": "fee-cat-tuition",
+      "feeCategoryName": "KG 2 Tuition & Feeding Package",
+      "description": "Full term 1 tuition & lunch fee",
+      "status": "Paid",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "recordedBy": "Mr. David Antwi (Accountant)",
+      "createdAt": "2026-09-10T11:25:00.000Z"
+    },
+    {
+      "id": "pay-03",
+      "receiptNumber": "REC-KJIS-2026-0003",
+      "studentId": "stud-04",
+      "studentName": "Fatima Zahra Ibrahim",
+      "admissionNumber": "KJIS-2024-0033",
+      "parentId": "parent-03",
+      "parentName": "Alhaji Mustapha Ibrahim",
+      "amount": 2800,
+      "paymentDate": "2026-09-12",
+      "paymentMethod": "Mobile Money",
+      "transactionReference": "MTN-MM-84729103",
+      "feeCategoryId": "fee-cat-tuition",
+      "feeCategoryName": "Term 1 Comprehensive Fees",
+      "description": "Full payment for Term 1 tuition and co-curricular",
+      "status": "Paid",
+      "academicYearId": "ay-2026-2027",
+      "termId": "term-1-2026",
+      "recordedBy": "Mr. David Antwi (Accountant)",
+      "createdAt": "2026-09-12T14:10:00.000Z"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "rec-01",
+      "receiptNumber": "REC-KJIS-2026-0001",
+      "paymentId": "pay-01",
+      "studentId": "stud-01",
+      "studentName": "Kwame Kofi Darko",
+      "admissionNumber": "KJIS-2024-0018",
+      "parentName": "Mr. Robert Darko",
+      "parentPhone": "+233 24 456 7890",
+      "className": "Basic 5",
+      "amountPaid": 2000,
+      "totalBilled": 2800,
+      "previousBalance": 2800,
+      "newBalance": 800,
+      "paymentDate": "2026-09-10",
+      "paymentMethod": "Bank Transfer",
+      "transactionReference": "GCB-TRF-9821034",
+      "feeCategory": "Tuition Fee (Term 1)",
+      "description": "Term 1 Tuition fee installment payment",
+      "authorizedBy": "Mr. David Antwi (Bursar / Accountant)"
+    },
+    {
+      "id": "rec-02",
+      "receiptNumber": "REC-KJIS-2026-0002",
+      "paymentId": "pay-02",
+      "studentId": "stud-02",
+      "studentName": "Ama Akosua Darko",
+      "admissionNumber": "KJIS-2025-0064",
+      "parentName": "Mr. Robert Darko",
+      "parentPhone": "+233 24 456 7890",
+      "className": "KG 2",
+      "amountPaid": 2200,
+      "totalBilled": 2200,
+      "previousBalance": 2200,
+      "newBalance": 0,
+      "paymentDate": "2026-09-10",
+      "paymentMethod": "Bank Transfer",
+      "transactionReference": "GCB-TRF-9821035",
+      "feeCategory": "KG 2 Tuition & Feeding Package",
+      "description": "Full term 1 tuition & lunch fee",
+      "authorizedBy": "Mr. David Antwi (Bursar / Accountant)"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-01",
+      "title": "Teaching and Support Staff Salaries - August 2026",
+      "category": "Salaries",
+      "amount": 45000,
+      "date": "2026-08-31",
+      "paymentMethod": "Direct Bank Transfer",
+      "paidTo": "All Permanent Staff",
+      "approvedBy": "Mr. Emmanuel Mensah (Headteacher)",
+      "notes": "Monthly payroll processing for 18 staff members.",
+      "createdAt": "2026-08-31T17:00:00.000Z"
+    },
+    {
+      "id": "exp-02",
+      "title": "Electricity & High-Speed Fiber Internet Bill",
+      "category": "Utilities",
+      "amount": 3200,
+      "date": "2026-09-05",
+      "paymentMethod": "Cheque",
+      "paidTo": "ECG / Telecel Ghana",
+      "approvedBy": "Mr. David Antwi (Accountant)",
+      "notes": "Covers administrative block and computer lab connectivity.",
+      "createdAt": "2026-09-05T09:30:00.000Z"
+    },
+    {
+      "id": "exp-03",
+      "title": "Classroom Whiteboards and Lab Stationery Restock",
+      "category": "Supplies",
+      "amount": 1850,
+      "date": "2026-09-07",
+      "paymentMethod": "Mobile Money",
+      "paidTo": "Kingdom Books & Stationery",
+      "approvedBy": "Mrs. Beatrice Osei (Academic Coordinator)",
+      "notes": "Term 1 academic supplies for basic schools.",
+      "createdAt": "2026-09-07T12:00:00.000Z"
+    },
+    {
+      "id": "exp-04",
+      "title": "Playground Equipment Safety Servicing & Turf Treatment",
+      "category": "Maintenance",
+      "amount": 2400,
+      "date": "2026-09-08",
+      "paymentMethod": "Cash",
+      "paidTo": "PlaySafe Ghana Ltd",
+      "approvedBy": "Mr. Emmanuel Mensah (Headteacher)",
+      "notes": "Pre-term safety checks for Early Childhood play area.",
+      "createdAt": "2026-09-08T15:00:00.000Z"
+    }
+  ],
+  "timetables": [
+    {
+      "id": "tt-01",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "dayOfWeek": "Monday",
+      "period": 1,
+      "startTime": "08:00",
+      "endTime": "08:45",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "teacherId": "teach-01",
+      "teacherName": "Mr. Kwame Asante",
+      "classroom": "Block B - Room 202"
+    },
+    {
+      "id": "tt-02",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "dayOfWeek": "Monday",
+      "period": 2,
+      "startTime": "08:45",
+      "endTime": "09:30",
+      "subjectId": "subj-sci",
+      "subjectName": "Integrated Science",
+      "teacherId": "teach-01",
+      "teacherName": "Mr. Kwame Asante",
+      "classroom": "Block B - Room 202"
+    },
+    {
+      "id": "tt-03",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "dayOfWeek": "Tuesday",
+      "period": 1,
+      "startTime": "08:00",
+      "endTime": "08:45",
+      "subjectId": "subj-comp",
+      "subjectName": "Computing (ICT)",
+      "teacherId": "teach-03",
+      "teacherName": "Mr. Patrick Boateng",
+      "classroom": "Innovation Computer Lab 1"
+    },
+    {
+      "id": "tt-04",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "dayOfWeek": "Wednesday",
+      "period": 3,
+      "startTime": "09:50",
+      "endTime": "10:35",
+      "subjectId": "subj-eng",
+      "subjectName": "English Language",
+      "teacherId": "teach-02",
+      "teacherName": "Mrs. Cynthia Quartey",
+      "classroom": "Block B - Room 202"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "asn-01",
+      "title": "Fractions, Decimals, and Real-Life Percentages Problem Set",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "subjectId": "subj-math",
+      "subjectName": "Mathematics",
+      "teacherId": "teach-01",
+      "teacherName": "Mr. Kwame Asante",
+      "instructions": "Complete exercises 1 to 15 on page 48 of the Pupil Workbook. Show all working steps clearly in your Mathematics Exercise Book 2.",
+      "deadline": "2026-09-25T16:00:00.000Z",
+      "status": "Active",
+      "createdAt": "2026-09-21T08:30:00.000Z"
+    },
+    {
+      "id": "asn-02",
+      "title": "Plant Photosynthesis & Chlorophyll Investigation Worksheet",
+      "classId": "class-basic-5",
+      "className": "Basic 5",
+      "subjectId": "subj-sci",
+      "subjectName": "Integrated Science",
+      "teacherId": "teach-01",
+      "teacherName": "Mr. Kwame Asante",
+      "instructions": "Observe the leaf specimen collected during science lab. Draw the cross-section and answer questions A through D.",
+      "deadline": "2026-09-26T16:00:00.000Z",
+      "status": "Active",
+      "createdAt": "2026-09-21T09:00:00.000Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "anc-01",
+      "title": "Welcome to Academic Year 2026/2027 - Term 1 Updates",
+      "message": "Management warmly welcomes all returning and newly admitted pupils and parents to Kobbi Jay International School. The first term is themed \"Igniting Curiosity and Academic Mastery.\" Kindly note that co-curricular club activities commence next Monday.",
+      "targetAudience": "All",
+      "authorName": "Mr. Emmanuel Mensah",
+      "authorRole": "Headteacher",
+      "isPinned": true,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "anc-02",
+      "title": "Term 1 Fee Payment Advisory & Bursary Deadlines",
+      "message": "Parents and guardians are kindly reminded that the deadline for 1st installment fee clearance is October 15, 2026. Electronic bank transfers and Mobile Money options are available via the school accounts office.",
+      "targetAudience": "Parents",
+      "authorName": "Mr. David Antwi",
+      "authorRole": "Accountant",
+      "isPinned": true,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "anc-03",
+      "title": "Annual Inter-House STEM & Robotics Fair Scheduled",
+      "message": "The annual STEM project exhibition for Basic 4 through JHS 3 will take place on November 20th. Class teachers have shared assignment guidelines in their respective subject portals.",
+      "targetAudience": "All",
+      "authorName": "Mrs. Beatrice Osei",
+      "authorRole": "Academic Coordinator",
+      "isPinned": false,
+      "date": "2026-09-19"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-01",
+      "title": "New Admission Application: Chloe Ofori-Atta",
+      "message": "New application received for Basic 1 (Stream A). Entrance readiness assessment scheduled.",
+      "type": "admission",
+      "targetRoles": [
+        "Super Administrator",
+        "School Administrator",
+        "Headteacher",
+        "Admissions Officer"
+      ],
+      "linkTab": "admissions",
+      "isRead": false,
+      "isDismissed": false,
+      "createdAt": "2026-09-22T08:15:00.000Z"
+    },
+    {
+      "id": "notif-02",
+      "title": "Fee Payment Received (REC-KJIS-2026-0001)",
+      "message": "Payment of GH₵ 2,000.00 confirmed for Kwame Kofi Darko via GCB Bank Transfer.",
+      "type": "fee",
+      "targetRoles": [
+        "Parent/Guardian",
+        "Accountant",
+        "School Administrator",
+        "Super Administrator"
+      ],
+      "linkTab": "payments",
+      "isRead": false,
+      "isDismissed": false,
+      "createdAt": "2026-09-21T14:20:00.000Z"
+    },
+    {
+      "id": "notif-03",
+      "title": "Overdue Fee Advisory: Term 1 Balance",
+      "message": "Tuition arrears of GH₵ 800.00 remain overdue past the grace deadline for Kwame Kofi Darko.",
+      "type": "fee_overdue",
+      "targetRoles": [
+        "Parent/Guardian",
+        "Accountant",
+        "School Administrator"
+      ],
+      "linkTab": "fees",
+      "isRead": false,
+      "isDismissed": false,
+      "createdAt": "2026-09-20T10:00:00.000Z"
+    },
+    {
+      "id": "notif-04",
+      "title": "New Announcement: Inter-House STEM Fair",
+      "message": "All pupils from Basic 3 to JHS 3 are invited to participate in the upcoming STEM & Robotics Fair on Nov 20.",
+      "type": "announcement",
+      "targetRoles": [
+        "All"
+      ],
+      "linkTab": "announcements",
+      "isRead": true,
+      "isDismissed": false,
+      "createdAt": "2026-09-19T09:30:00.000Z"
+    },
+    {
+      "id": "notif-05",
+      "title": "Examination Results Released: Basic 5",
+      "message": "Class assessment and terminal examination results for Basic 5 have been approved by the Headteacher and published.",
+      "type": "result",
+      "targetRoles": [
+        "Parent/Guardian",
+        "Student",
+        "Teacher",
+        "Headteacher",
+        "Academic Coordinator"
+      ],
+      "linkTab": "report-cards",
+      "isRead": false,
+      "isDismissed": false,
+      "createdAt": "2026-09-21T16:00:00.000Z"
+    },
+    {
+      "id": "notif-06",
+      "title": "Assignment Submission: Fractions Problem Set 3",
+      "message": "Pupil Kelvin Mensah submitted mathematics homework for Basic 4. Awaiting teacher marking.",
+      "type": "assignment",
+      "targetRoles": [
+        "Teacher",
+        "Headteacher",
+        "Parent/Guardian"
+      ],
+      "linkTab": "assignments",
+      "isRead": false,
+      "isDismissed": false,
+      "createdAt": "2026-09-22T07:45:00.000Z"
+    },
+    {
+      "id": "notif-07",
+      "title": "Attendance Alert: Unexcused Absence",
+      "message": "Pupil Kelvin Mensah was marked Absent today in Basic 4 without prior notification from guardian.",
+      "type": "attendance",
+      "targetRoles": [
+        "Parent/Guardian",
+        "Teacher",
+        "Headteacher",
+        "School Administrator"
+      ],
+      "linkTab": "attendance",
+      "isRead": false,
+      "isDismissed": false,
+      "createdAt": "2026-09-22T08:35:00.000Z"
+    },
+    {
+      "id": "notif-08",
+      "title": "Admissions Offer Enrolled: Kelvin Mensah",
+      "message": "Application APP-KJIS-2026-0104 accepted. Pupil enrolled into Nursery 1 with ID KJIS-2026-0104.",
+      "type": "admission",
+      "targetRoles": [
+        "School Administrator",
+        "Headteacher",
+        "Parent/Guardian",
+        "Accountant"
+      ],
+      "linkTab": "admissions",
+      "isRead": true,
+      "isDismissed": false,
+      "createdAt": "2026-09-18T11:00:00.000Z"
+    }
+  ],
+  "libraryBooks": [
+    {
+      "id": "book-01",
+      "title": "The Great Golden Horn of Ghana",
+      "author": "Meshack Asare",
+      "category": "African Children Literature",
+      "isbn": "978-9964-70-101-2",
+      "totalCopies": 12,
+      "availableCopies": 10,
+      "shelfLocation": "Shelf A-3 (Ghanaian Classics)",
+      "publishYear": 2018
+    },
+    {
+      "id": "book-02",
+      "title": "Cambridge Primary Science Learner Book 5",
+      "author": "Fiona Baxter & Liz Dilley",
+      "category": "Science Textbooks",
+      "isbn": "978-1108-74274-0",
+      "totalCopies": 25,
+      "availableCopies": 22,
+      "shelfLocation": "Shelf B-1 (Primary Sciences)",
+      "publishYear": 2021
+    },
+    {
+      "id": "book-03",
+      "title": "Junior Illustrated English Dictionary",
+      "author": "Felicity Brooks",
+      "category": "Reference & Dictionaries",
+      "isbn": "978-1474-92440-5",
+      "totalCopies": 15,
+      "availableCopies": 14,
+      "shelfLocation": "Reference Desk R-02",
+      "publishYear": 2020
+    },
+    {
+      "id": "book-04",
+      "title": "Coding in Scratch 3.0: Games, Animations & AI",
+      "author": "Max Wainewright",
+      "category": "Technology & Computing",
+      "isbn": "978-1783-12502-9",
+      "totalCopies": 10,
+      "availableCopies": 7,
+      "shelfLocation": "Shelf C-2 (Computer Lab Reading)",
+      "publishYear": 2022
+    }
+  ],
+  "libraryLoans": [
+    {
+      "id": "loan-01",
+      "bookId": "book-04",
+      "bookTitle": "Coding in Scratch 3.0: Games, Animations & AI",
+      "borrowerType": "Student",
+      "borrowerId": "stud-01",
+      "borrowerName": "Kwame Kofi Darko (Basic 5)",
+      "borrowDate": "2026-09-15",
+      "dueDate": "2026-09-29",
+      "status": "Borrowed",
+      "fineAmount": 0,
+      "fineStatus": "None"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-01",
+      "title": "Kobbi Jay International School Code of Conduct & Policies 2026/2027",
+      "category": "School Policies",
+      "fileSize": "1.4 MB",
+      "fileType": "PDF",
+      "uploadedBy": "Mr. Emmanuel Mensah",
+      "uploadedAt": "2026-09-01T09:00:00.000Z",
+      "accessibleRoles": [
+        "Super Administrator",
+        "School Administrator",
+        "Headteacher",
+        "Teacher",
+        "Parent/Guardian"
+      ]
+    },
+    {
+      "id": "doc-02",
+      "title": "National Pre-Tertiary Standards-Based Curriculum Overview (Basic 1 - 6)",
+      "category": "Curriculum",
+      "fileSize": "3.8 MB",
+      "fileType": "PDF",
+      "uploadedBy": "Mrs. Beatrice Osei",
+      "uploadedAt": "2026-09-02T10:00:00.000Z",
+      "accessibleRoles": [
+        "Super Administrator",
+        "School Administrator",
+        "Headteacher",
+        "Academic Coordinator",
+        "Teacher"
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-clean-1790093269174",
+      "userName": "Automated Retention Engine",
+      "userRole": "Super Administrator",
+      "action": "AUDIT_LOGS_ARCHIVED",
+      "module": "Security & Governance",
+      "recordAffected": "ARCH-2026-003",
+      "details": "Archived 5 audit logs older than 12 months into compliance batch ARCH-2026-003 (1.7 KB).",
+      "ipAddress": "127.0.0.1 (Internal Worker)",
+      "timestamp": "2026-09-22T16:07:49.174Z"
+    },
+    {
+      "id": "log-clean-1790093259643",
+      "userName": "Automated Retention Engine",
+      "userRole": "Super Administrator",
+      "action": "AUDIT_LOGS_ARCHIVED",
+      "module": "Security & Governance",
+      "recordAffected": "ARCH-2026-002",
+      "details": "Archived 5 audit logs older than 12 months into compliance batch ARCH-2026-002 (1.7 KB).",
+      "ipAddress": "127.0.0.1 (Internal Worker)",
+      "timestamp": "2026-09-22T16:07:39.643Z"
+    },
+    {
+      "id": "log-01",
+      "userName": "Mr. Joseph Amponsah",
+      "userRole": "School Administrator",
+      "action": "ACADEMIC_YEAR_CONFIG",
+      "module": "System Settings",
+      "recordAffected": "Academic Year 2026/2027",
+      "details": "Set 2026/2027 Term 1 as active school term.",
+      "ipAddress": "192.168.1.10",
+      "timestamp": "2026-09-08T08:00:00.000Z"
+    },
+    {
+      "id": "log-02",
+      "userName": "Mr. David Antwi",
+      "userRole": "Accountant",
+      "action": "PAYMENT_RECORDED",
+      "module": "Fees & Finance",
+      "recordAffected": "Receipt REC-KJIS-2026-0001 (Kwame Darko)",
+      "details": "Recorded GCB Bank Transfer payment of GH₵ 2,000.00 for tuition.",
+      "ipAddress": "192.168.1.25",
+      "timestamp": "2026-09-10T11:20:00.000Z"
+    },
+    {
+      "id": "log-03",
+      "userName": "Mr. Emmanuel Mensah",
+      "userRole": "Headteacher",
+      "action": "RESULT_APPROVED",
+      "module": "Examination Management",
+      "recordAffected": "Basic 5 Mathematics & Science Assessment Batch",
+      "details": "Approved and locked continuous assessment scores submitted by Mr. Asante.",
+      "ipAddress": "192.168.1.12",
+      "timestamp": "2026-09-21T09:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "schoolName": "KOBBI JAY INTERNATIONAL SCHOOL",
+    "schoolType": "Basic School (Creche to JHS 3)",
+    "motto": "Excellence, Integrity, Leadership",
+    "address": "No. 14 Education Ridge, Airport Residential Area, Accra, Ghana",
+    "phone": "+233 24 555 0192",
+    "altPhone": "+233 30 222 8491",
+    "email": "info@kobbijay.edu.gh",
+    "website": "https://kobbijay.edu.gh",
+    "logoUrl": "/assets/logo.svg",
+    "activeAcademicYearId": "ay-2026-2027",
+    "currentTermId": "term-1-2026",
+    "currency": "GH₵",
+    "enableStudentRanking": true,
+    "assessmentWeights": {
+      "classScoreWeight": 40,
+      "examScoreWeight": 60
+    },
+    "gradingScale": [
+      {
+        "grade": "1 (A)",
+        "minScore": 80,
+        "maxScore": 100,
+        "remarks": "Excellent / Distinction",
+        "gradePoint": 1
+      },
+      {
+        "grade": "2 (B+)",
+        "minScore": 70,
+        "maxScore": 79,
+        "remarks": "Very Good",
+        "gradePoint": 2
+      },
+      {
+        "grade": "3 (B)",
+        "minScore": 65,
+        "maxScore": 69,
+        "remarks": "Good",
+        "gradePoint": 3
+      },
+      {
+        "grade": "4 (C+)",
+        "minScore": 60,
+        "maxScore": 64,
+        "remarks": "Credit",
+        "gradePoint": 4
+      },
+      {
+        "grade": "5 (C)",
+        "minScore": 55,
+        "maxScore": 59,
+        "remarks": "Satisfactory",
+        "gradePoint": 5
+      },
+      {
+        "grade": "6 (D)",
+        "minScore": 50,
+        "maxScore": 54,
+        "remarks": "Pass",
+        "gradePoint": 6
+      },
+      {
+        "grade": "7 (E)",
+        "minScore": 45,
+        "maxScore": 49,
+        "remarks": "Weak Pass",
+        "gradePoint": 7
+      },
+      {
+        "grade": "8 (E-)",
+        "minScore": 40,
+        "maxScore": 44,
+        "remarks": "Marginal",
+        "gradePoint": 8
+      },
+      {
+        "grade": "9 (F)",
+        "minScore": 0,
+        "maxScore": 39,
+        "remarks": "Fail",
+        "gradePoint": 9
+      }
+    ],
+    "backupLastInitiated": "2026-09-22T15:39:43.493Z"
+  },
+  "applications": [
+    {
+      "id": "app-01",
+      "applicationNumber": "APP-KJIS-2026-0104",
+      "applicantFirstName": "Kelvin",
+      "applicantMiddleName": "Kwabena",
+      "applicantLastName": "Mensah",
+      "gender": "Male",
+      "dateOfBirth": "2022-04-18",
+      "desiredClassId": "class-nursery-1",
+      "desiredClassName": "Nursery 1",
+      "previousSchool": "Little Angels Daycare",
+      "parentName": "Mr. Samuel Mensah",
+      "parentPhone": "+233 24 555 9901",
+      "parentEmail": "samuel.mensah@gmail.com",
+      "parentOccupation": "Financial Consultant",
+      "address": "East Airport, Accra",
+      "status": "Under Review",
+      "interviewDate": "2026-09-24",
+      "interviewNotes": "Scheduled for readiness assessment and parent orientation.",
+      "submittedAt": "2026-09-19T14:00:00.000Z",
+      "reviewedBy": "Ms. Grace Owusu"
+    },
+    {
+      "id": "app-02",
+      "applicationNumber": "APP-KJIS-2026-0105",
+      "applicantFirstName": "Chloe",
+      "applicantLastName": "Ofori-Atta",
+      "gender": "Female",
+      "dateOfBirth": "2019-07-29",
+      "desiredClassId": "class-basic-1",
+      "desiredClassName": "Basic 1",
+      "previousSchool": "Crown Prince Academy",
+      "parentName": "Mrs. Janet Ofori-Atta",
+      "parentPhone": "+233 20 111 8844",
+      "parentEmail": "janet.ofori@lawfirm.gh",
+      "parentOccupation": "Legal Practitioner",
+      "address": "Airport Residential Area, Accra",
+      "status": "Accepted",
+      "interviewDate": "2026-09-20",
+      "interviewScore": 92,
+      "interviewNotes": "Strong literacy foundation and communication skills. Recommended for admission.",
+      "submittedAt": "2026-09-18T10:30:00.000Z",
+      "reviewedBy": "Ms. Grace Owusu"
+    }
+  ],
+  "archivedAuditBatches": [
+    {
+      "id": "arch-batch-1790093269174",
+      "batchNumber": "ARCH-2026-003",
+      "archivedAt": "2026-09-22T16:07:49.174Z",
+      "cutoffDate": "2025-09-22T10:07:49.174Z",
+      "recordCount": 5,
+      "triggeredBy": "Automated Task (Startup Verification)",
+      "dateRange": {
+        "oldest": "2024-10-14T09:30:00.000Z",
+        "newest": "2025-07-10T11:45:00.000Z"
+      },
+      "fileSize": "1.7 KB",
+      "logs": [
+        {
+          "id": "log-hist-01",
+          "userName": "Mr. Emmanuel Mensah",
+          "userRole": "Headteacher",
+          "action": "CURRICULUM_ACCREDITATION",
+          "module": "Academics",
+          "recordAffected": "Ghana Education Service (GES) Standards-Based Syllabus",
+          "details": "Submitted annual compliance audit for Basic 1-6 standards curriculum.",
+          "ipAddress": "192.168.1.12",
+          "timestamp": "2024-10-14T09:30:00.000Z"
+        },
+        {
+          "id": "log-hist-02",
+          "userName": "Mrs. Grace Osei",
+          "userRole": "Accountant",
+          "action": "FEE_STRUCTURE_CREATION",
+          "module": "Fees & Finance",
+          "recordAffected": "Academic Year 2024/2025 Creche & Kindergarten Fees",
+          "details": "Configured baseline tuition and feeding fee brackets.",
+          "ipAddress": "192.168.1.25",
+          "timestamp": "2024-12-05T14:15:00.000Z"
+        },
+        {
+          "id": "log-hist-03",
+          "userName": "Mr. Joseph Amponsah",
+          "userRole": "School Administrator",
+          "action": "CAMPUS_INFRASTRUCTURE",
+          "module": "School Facilities",
+          "recordAffected": "Robotics & STEM Lab Equipment Procurement",
+          "details": "Approved requisition for 25 LEGO Education SPIKE Prime kits.",
+          "ipAddress": "192.168.1.10",
+          "timestamp": "2025-02-18T10:00:00.000Z"
+        },
+        {
+          "id": "log-hist-04",
+          "userName": "Mr. Kwame Asante",
+          "userRole": "Teacher",
+          "action": "TERMINAL_GRADE_SUBMISSION",
+          "module": "Examination Management",
+          "recordAffected": "Basic 4 Science Term 3 2024/2025",
+          "details": "Submitted terminal examination results for class of 32 students.",
+          "ipAddress": "192.168.1.18",
+          "timestamp": "2025-04-22T16:20:00.000Z"
+        },
+        {
+          "id": "log-hist-05",
+          "userName": "Ms. Grace Owusu",
+          "userRole": "Admissions Officer",
+          "action": "BATCH_ADMISSION_CLOSE",
+          "module": "Admissions",
+          "recordAffected": "2024/2025 Mid-Year Admissions Intake",
+          "details": "Closed intake cycle and locked applicant rosters.",
+          "ipAddress": "192.168.1.15",
+          "timestamp": "2025-07-10T11:45:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "arch-batch-1790093259643",
+      "batchNumber": "ARCH-2026-002",
+      "archivedAt": "2026-09-22T16:07:39.643Z",
+      "cutoffDate": "2025-09-22T10:07:39.643Z",
+      "recordCount": 5,
+      "triggeredBy": "Automated Task (Startup Verification)",
+      "dateRange": {
+        "oldest": "2024-10-14T09:30:00.000Z",
+        "newest": "2025-07-10T11:45:00.000Z"
+      },
+      "fileSize": "1.7 KB",
+      "logs": [
+        {
+          "id": "log-hist-01",
+          "userName": "Mr. Emmanuel Mensah",
+          "userRole": "Headteacher",
+          "action": "CURRICULUM_ACCREDITATION",
+          "module": "Academics",
+          "recordAffected": "Ghana Education Service (GES) Standards-Based Syllabus",
+          "details": "Submitted annual compliance audit for Basic 1-6 standards curriculum.",
+          "ipAddress": "192.168.1.12",
+          "timestamp": "2024-10-14T09:30:00.000Z"
+        },
+        {
+          "id": "log-hist-02",
+          "userName": "Mrs. Grace Osei",
+          "userRole": "Accountant",
+          "action": "FEE_STRUCTURE_CREATION",
+          "module": "Fees & Finance",
+          "recordAffected": "Academic Year 2024/2025 Creche & Kindergarten Fees",
+          "details": "Configured baseline tuition and feeding fee brackets.",
+          "ipAddress": "192.168.1.25",
+          "timestamp": "2024-12-05T14:15:00.000Z"
+        },
+        {
+          "id": "log-hist-03",
+          "userName": "Mr. Joseph Amponsah",
+          "userRole": "School Administrator",
+          "action": "CAMPUS_INFRASTRUCTURE",
+          "module": "School Facilities",
+          "recordAffected": "Robotics & STEM Lab Equipment Procurement",
+          "details": "Approved requisition for 25 LEGO Education SPIKE Prime kits.",
+          "ipAddress": "192.168.1.10",
+          "timestamp": "2025-02-18T10:00:00.000Z"
+        },
+        {
+          "id": "log-hist-04",
+          "userName": "Mr. Kwame Asante",
+          "userRole": "Teacher",
+          "action": "TERMINAL_GRADE_SUBMISSION",
+          "module": "Examination Management",
+          "recordAffected": "Basic 4 Science Term 3 2024/2025",
+          "details": "Submitted terminal examination results for class of 32 students.",
+          "ipAddress": "192.168.1.18",
+          "timestamp": "2025-04-22T16:20:00.000Z"
+        },
+        {
+          "id": "log-hist-05",
+          "userName": "Ms. Grace Owusu",
+          "userRole": "Admissions Officer",
+          "action": "BATCH_ADMISSION_CLOSE",
+          "module": "Admissions",
+          "recordAffected": "2024/2025 Mid-Year Admissions Intake",
+          "details": "Closed intake cycle and locked applicant rosters.",
+          "ipAddress": "192.168.1.15",
+          "timestamp": "2025-07-10T11:45:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "arch-batch-2025-01",
+      "batchNumber": "ARCH-2025-001",
+      "archivedAt": "2025-09-01T00:00:00.000Z",
+      "cutoffDate": "2024-09-01T00:00:00.000Z",
+      "recordCount": 38,
+      "triggeredBy": "Automated Task (Scheduled Monthly Cron)",
+      "dateRange": {
+        "oldest": "2023-09-12T08:30:00.000Z",
+        "newest": "2024-08-28T16:45:00.000Z"
+      },
+      "fileSize": "31.4 KB",
+      "logs": []
+    }
+  ]
+}

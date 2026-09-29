@@ -1,0 +1,6 @@
+{
+  "name": "Kobbi Jay International School Management System",
+  "description": "Comprehensive, secure, and responsive School Database Management System (SDMS) for Kobbi Jay International School (Creche through JHS 3).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

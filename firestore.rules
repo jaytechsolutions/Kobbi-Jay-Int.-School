@@ -1,0 +1,21 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Default rule: allow read/write for authenticated users for now
+    // In a production app, we would restrict this by role
+    match /{document=**} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Specific collection rules (examples of how to harden)
+    match /auditLogs/{logId} {
+      allow create: if isAuthenticated();
+      allow read, update, delete: if isAuthenticated(); // Restrict further in prod
+    }
+  }
+}
